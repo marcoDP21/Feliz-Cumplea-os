@@ -1,0 +1,67 @@
+#papa{
+    grid-area: 1/2/2/5;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 0.2fr 0.4fr 0.2fr 1fr 2fr 0.5fr 1fr 0.5fr 0.3fr 0.5fr 0.2fr;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr 0.3fr 0.5fr 0.3fr;
+}
+#dbed{
+    grid-area: 4/10/8/11;
+    background-color: #75C373;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+#dpillow{
+    background-color: white;
+    grid-area: 7/10/-1/11;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#d_desk{
+    background: rgb(185, 122, 87);
+    grid-area: 2/9/3/12;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: 0.8fr 0.5fr 0.8fr;
+}
+#d_tv{
+    background: #000;
+    grid-area: 2/2;
+}
+#second_desk{
+    background: rgb(185, 122, 87);
+    grid-area: 5/13/7/14;
+    border: 1px solid black;
+
+}
+#dbase_bathroom{
+    background: antiquewhite;
+    grid-area: 1/2/3/8;
+    border: 1px solid black;
+}
+#d_washbasin{
+    background-color: #C1E2E1;
+    grid-area: 1/7/2/8;
+    border: 1px solid black;
+}
+#d_toilet{
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    grid-area: 1/5/2/6;
+}
+#d_bathtub{
+    background-color: #68826F;
+    grid-area: 1/2/3/3;
+    border-radius: 90px;
+    border: 1px solid black;
+}
+#closet_base{
+    background: rgb(185, 122, 87);
+    border: 1px solid black;
+    grid-area: 1/1/-1/2;
+}
+#papa_click{
+    grid-area: 1/2/2/5;
+}

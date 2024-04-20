@@ -1,0 +1,26 @@
+#main_bath{
+    grid-area: 5/1/6/2;
+    background-color: white;
+    border: 1px solid black;
+    background-color: #A7A7A7;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 1.5fr 0.5fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.4fr 2fr;
+}
+#main_toilet{
+    grid-area: 3/1/4/2;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#main_washbasin{
+    grid-area: 5/1/-1/3;
+    background: #C1E2E1;
+    border: 1px solid black;
+}
+#main_trash{
+    grid-area: 1/5/2/6;
+    background: #3A6E7E;
+    border: 1px solid black;
+    border-radius: 5px;
+}
